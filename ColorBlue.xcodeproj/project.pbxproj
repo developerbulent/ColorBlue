@@ -8,17 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		5B1058BC29E6EF4900F8FF90 /* ColorBlueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1058BB29E6EF4900F8FF90 /* ColorBlueApp.swift */; };
-		5B1058BE29E6EF4900F8FF90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1058BD29E6EF4900F8FF90 /* ContentView.swift */; };
+		5B1058BE29E6EF4900F8FF90 /* ColorBlueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1058BD29E6EF4900F8FF90 /* ColorBlueView.swift */; };
 		5B1058C029E6EF4A00F8FF90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B1058BF29E6EF4A00F8FF90 /* Assets.xcassets */; };
 		5B1058C329E6EF4A00F8FF90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B1058C229E6EF4A00F8FF90 /* Preview Assets.xcassets */; };
+		5B1058CF29E6F01700F8FF90 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1058CE29E6F01700F8FF90 /* MainTabView.swift */; };
+		5B1058D529E6F1AF00F8FF90 /* MainViewDaire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1058D429E6F1AF00F8FF90 /* MainViewDaire.swift */; };
+		5B1058D729E6F2B900F8FF90 /* MainViewRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1058D629E6F2B900F8FF90 /* MainViewRectangle.swift */; };
+		5B1058D929E6F2EA00F8FF90 /* MainViewTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1058D829E6F2EA00F8FF90 /* MainViewTriangle.swift */; };
+		5B1058DB29E6F35300F8FF90 /* MenuViewSiield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1058DA29E6F35300F8FF90 /* MenuViewSiield.swift */; };
+		5B1058DD29E6FB4800F8FF90 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1058DC29E6FB4800F8FF90 /* SideMenuView.swift */; };
+		5B1058DF29E6FC4C00F8FF90 /* SideMenuViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1058DE29E6FC4C00F8FF90 /* SideMenuViewHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5B1058B829E6EF4900F8FF90 /* ColorBlue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorBlue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B1058BB29E6EF4900F8FF90 /* ColorBlueApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBlueApp.swift; sourceTree = "<group>"; };
-		5B1058BD29E6EF4900F8FF90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5B1058BD29E6EF4900F8FF90 /* ColorBlueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBlueView.swift; sourceTree = "<group>"; };
 		5B1058BF29E6EF4A00F8FF90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B1058C229E6EF4A00F8FF90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5B1058CE29E6F01700F8FF90 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		5B1058D429E6F1AF00F8FF90 /* MainViewDaire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewDaire.swift; sourceTree = "<group>"; };
+		5B1058D629E6F2B900F8FF90 /* MainViewRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewRectangle.swift; sourceTree = "<group>"; };
+		5B1058D829E6F2EA00F8FF90 /* MainViewTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewTriangle.swift; sourceTree = "<group>"; };
+		5B1058DA29E6F35300F8FF90 /* MenuViewSiield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewSiield.swift; sourceTree = "<group>"; };
+		5B1058DC29E6FB4800F8FF90 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		5B1058DE29E6FC4C00F8FF90 /* SideMenuViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +65,9 @@
 		5B1058BA29E6EF4900F8FF90 /* ColorBlue */ = {
 			isa = PBXGroup;
 			children = (
+				5B1058C929E6EF7C00F8FF90 /* Core */,
 				5B1058BB29E6EF4900F8FF90 /* ColorBlueApp.swift */,
-				5B1058BD29E6EF4900F8FF90 /* ContentView.swift */,
+				5B1058BD29E6EF4900F8FF90 /* ColorBlueView.swift */,
 				5B1058BF29E6EF4A00F8FF90 /* Assets.xcassets */,
 				5B1058C129E6EF4A00F8FF90 /* Preview Content */,
 			);
@@ -65,6 +80,126 @@
 				5B1058C229E6EF4A00F8FF90 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5B1058C929E6EF7C00F8FF90 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5B1058E329E7132900F8FF90 /* Components */,
+				5B1058CA29E6EF8200F8FF90 /* Profile */,
+				5B1058CC29E6EF9600F8FF90 /* SideMenu */,
+				5B1058CB29E6EF8A00F8FF90 /* MainMenu */,
+				5B1058CD29E6EFEA00F8FF90 /* MainTab */,
+				5B1058E029E7125D00F8FF90 /* Feed */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		5B1058CA29E6EF8200F8FF90 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				5B1058E129E7129700F8FF90 /* View */,
+				5B1058E229E7129F00F8FF90 /* ViewModel */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		5B1058CB29E6EF8A00F8FF90 /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				5B1058D029E6F04F00F8FF90 /* Circle */,
+				5B1058D129E6F16500F8FF90 /* Rectangle */,
+				5B1058D229E6F16E00F8FF90 /* Triangle */,
+				5B1058D329E6F17600F8FF90 /* Shield */,
+			);
+			path = MainMenu;
+			sourceTree = "<group>";
+		};
+		5B1058CC29E6EF9600F8FF90 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				5B1058DC29E6FB4800F8FF90 /* SideMenuView.swift */,
+				5B1058DE29E6FC4C00F8FF90 /* SideMenuViewHeader.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		5B1058CD29E6EFEA00F8FF90 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				5B1058CE29E6F01700F8FF90 /* MainTabView.swift */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		5B1058D029E6F04F00F8FF90 /* Circle */ = {
+			isa = PBXGroup;
+			children = (
+				5B1058D429E6F1AF00F8FF90 /* MainViewDaire.swift */,
+			);
+			path = Circle;
+			sourceTree = "<group>";
+		};
+		5B1058D129E6F16500F8FF90 /* Rectangle */ = {
+			isa = PBXGroup;
+			children = (
+				5B1058D629E6F2B900F8FF90 /* MainViewRectangle.swift */,
+			);
+			path = Rectangle;
+			sourceTree = "<group>";
+		};
+		5B1058D229E6F16E00F8FF90 /* Triangle */ = {
+			isa = PBXGroup;
+			children = (
+				5B1058D829E6F2EA00F8FF90 /* MainViewTriangle.swift */,
+			);
+			name = Triangle;
+			path = "Üçgen";
+			sourceTree = "<group>";
+		};
+		5B1058D329E6F17600F8FF90 /* Shield */ = {
+			isa = PBXGroup;
+			children = (
+				5B1058DA29E6F35300F8FF90 /* MenuViewSiield.swift */,
+			);
+			name = Shield;
+			path = "Dikdörtgen";
+			sourceTree = "<group>";
+		};
+		5B1058E029E7125D00F8FF90 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		5B1058E129E7129700F8FF90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5B1058E229E7129F00F8FF90 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5B1058E329E7132900F8FF90 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5B1058E429E7135B00F8FF90 /* Row */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5B1058E429E7135B00F8FF90 /* Row */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Row;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +272,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B1058BE29E6EF4900F8FF90 /* ContentView.swift in Sources */,
+				5B1058D929E6F2EA00F8FF90 /* MainViewTriangle.swift in Sources */,
+				5B1058BE29E6EF4900F8FF90 /* ColorBlueView.swift in Sources */,
+				5B1058DD29E6FB4800F8FF90 /* SideMenuView.swift in Sources */,
+				5B1058D729E6F2B900F8FF90 /* MainViewRectangle.swift in Sources */,
 				5B1058BC29E6EF4900F8FF90 /* ColorBlueApp.swift in Sources */,
+				5B1058DB29E6F35300F8FF90 /* MenuViewSiield.swift in Sources */,
+				5B1058DF29E6FC4C00F8FF90 /* SideMenuViewHeader.swift in Sources */,
+				5B1058CF29E6F01700F8FF90 /* MainTabView.swift in Sources */,
+				5B1058D529E6F1AF00F8FF90 /* MainViewDaire.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
